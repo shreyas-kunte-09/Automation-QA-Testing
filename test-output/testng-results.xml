@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[*** Email is VALID ***]]>
+    </line>
+    <line>
+      <![CDATA[*** Password is VALID ***]]>
+    </line>
+    <line>
+      <![CDATA[Login test script executed successfully......]]>
+    </line>
+    <line>
+      <![CDATA[Punch-In element is displayed on the website]]>
+    </line>
+    <line>
+      <![CDATA[Punch In executed.....]]>
+    </line>
+    <line>
+      <![CDATA[Punch In test script executed successfully......]]>
+    </line>
+    <line>
+      <![CDATA[*** Lead Name is VALID ***]]>
+    </line>
+    <line>
+      <![CDATA[*** Reference number is VALID ***]]>
+    </line>
+    <line>
+      <![CDATA[*** Contact person is VALID ***]]>
+    </line>
+    <line>
+      <![CDATA[*** Mobile is VALID ***]]>
+    </line>
+    <line>
+      <![CDATA[*** Email is VALID ***]]>
+    </line>
+    <line>
+      <![CDATA[Add Customer test script executed successfully......]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-18T00:46:30 IST" name="Suite" finished-at="2024-11-18T00:47:14 IST" duration-ms="44592">
+    <groups>
+    </groups>
+    <test started-at="2024-11-18T00:46:30 IST" name="Test" finished-at="2024-11-18T00:47:14 IST" duration-ms="44592">
+      <class name="machinetest.LoginJourney">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:machinetest.LoginJourney@43bc63a3]" started-at="2024-11-18T00:46:24 IST" name="openBrowser" finished-at="2024-11-18T00:46:30 IST" duration-ms="5624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="signup(java.lang.String,java.lang.String)[pri:0, instance:machinetest.LoginJourney@43bc63a3]" started-at="2024-11-18T00:46:30 IST" name="signup" finished-at="2024-11-18T00:47:00 IST" duration-ms="30184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siddiqshaikh1@nimapinfotech.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*** Email is VALID ***]]>
+            </line>
+            <line>
+              <![CDATA[*** Password is VALID ***]]>
+            </line>
+            <line>
+              <![CDATA[Login test script executed successfully......]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:machinetest.LoginJourney@43bc63a3]" started-at="2024-11-18T00:47:14 IST" name="closeBrowser" finished-at="2024-11-18T00:47:15 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- machinetest.LoginJourney -->
+      <class name="machinetest.PunchIn">
+        <test-method signature="punchIn()[pri:1, instance:machinetest.PunchIn@2d1ef81a]" started-at="2024-11-18T00:47:00 IST" name="punchIn" finished-at="2024-11-18T00:47:06 IST" duration-ms="6655" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Punch-In element is displayed on the website]]>
+            </line>
+            <line>
+              <![CDATA[Punch In executed.....]]>
+            </line>
+            <line>
+              <![CDATA[Punch In test script executed successfully......]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- punchIn -->
+      </class> <!-- machinetest.PunchIn -->
+      <class name="machinetest.AddCustomer">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:machinetest.AddCustomer@4c402120]" started-at="2024-11-18T00:47:07 IST" name="addCustomer" finished-at="2024-11-18T00:47:14 IST" duration-ms="7619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mr Rahul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[admin123@nimapinfotech.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*** Lead Name is VALID ***]]>
+            </line>
+            <line>
+              <![CDATA[*** Reference number is VALID ***]]>
+            </line>
+            <line>
+              <![CDATA[*** Contact person is VALID ***]]>
+            </line>
+            <line>
+              <![CDATA[*** Mobile is VALID ***]]>
+            </line>
+            <line>
+              <![CDATA[*** Email is VALID ***]]>
+            </line>
+            <line>
+              <![CDATA[Add Customer test script executed successfully......]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- machinetest.AddCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
